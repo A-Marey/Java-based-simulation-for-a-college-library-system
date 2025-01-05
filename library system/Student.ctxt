@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ This\ is\ a\ student\ class.\r\n\r\n\ @author\ (Adam\ Marey)\r\n\ @version\ (1)\r\n\r\n\ this\ class\ represents\ college\ students\r\n
+comment1.params=name\ library
+comment1.target=Student(java.lang.String,\ Library)
+comment1.text=\r\n\ creates\ a\ new\ student\ a\ name\ and\ library.\r\n\r\n\ @param\ (name)\ \ \ \ the\ name\ of\ the\ student\r\n\ @param\ (library)\ the\ library\ the\ student\ joins\r\n
+comment2.params=
+comment2.target=boolean\ finishedStudies()
+comment2.text=\r\n\ checks\ if\ the\ student\ has\ finished\ his\ studies\r\n\r\n\ @return\ True\ if\ the\ student\ does\ not\ have\ a\ TextBook\ to\ read\r\n\ and\ can't\ borrow\ one\ because\ the\ LibraryCard\ has\ expired;\ otherwise,\ false.\r\n
+comment3.params=
+comment3.target=void\ study()
+comment3.text=\r\n\ causes\ the\ student\ to\ study.\r\n\ if\ the\ student\ does\ not\ currently\ have\ a\ TextBook,\r\n\ then\ the\ student\ tries\ to\ borrow\ one\ from\ the\ library\r\n\ if\ the\ student\ does\ have\ a\ book\ and\ its\ finished,\r\n\ then\ the\ student\ reads\ one\ chapter\ from\ his\ book\r\n\ the\ student\ has\ a\ book\ that\ is\ finished\r\n\ so\ he\ closes\ it\ and\ returns\ it\r\n\ after\ all\ of\ this\ the\ student\ will\ not\ have\ any\ books\r\n
+comment4.params=
+comment4.target=void\ describe()
+comment4.text=\r\n\ prints\ messages\ about\ the\ student's\ current\ state\r\n
+comment5.params=
+comment5.target=java.lang.String\ getDescription()
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment6.text=\r\n\ Gets\ the\ name\ of\ the\ student.\r\n\r\n\ @return\ the\ name\ of\ the\ student.\r\n
+numComments=7

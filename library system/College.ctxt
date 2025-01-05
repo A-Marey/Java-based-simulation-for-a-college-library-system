@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=College
+comment0.text=\r\n\ Represents\ a\ college\ with\ students\r\n
+comment1.params=numStudents\ numTextBooks
+comment1.target=College(int,\ int)
+comment1.text=\r\n\ constructs\ a\ new\ college\ with\ a\ number\ of\ students\ and\ textbooks\ in\ the\ library.\r\n\r\n\ @param\ numStudents\ \ the\ number\ of\ students\ in\ college.\r\n\ @param\ numTextBooks\ the\ number\ of\ textbooks\ in\ the\ library.\r\n
+comment2.params=
+comment2.target=void\ describe()
+comment2.text=\r\n\ prints\ out\ a\ description\ of\ the\ college.\r\n
+comment3.params=
+comment3.target=void\ nextStep()
+comment3.text=\r\n\ Internal\ method\ for\ carrying\ out\ the\ next\ step\ in\ the\ college.\r\n\ If\ there\ are\ no\ students\ left,\ .\r\n\ -\ Otherwise,\ selects\ a\ random\ student\ and\ either\ removes\ them\ if\ they\ finished\ studies\ or\ lets\ them\ study.\r\n
+comment4.params=nSteps
+comment4.target=void\ runCollege(int)
+comment4.text=\r\n\ Runs\ the\ college\ simulation\ for\ the\ specified\ number\ of\ steps.\r\n\r\n\ @param\ nSteps\ The\ number\ of\ steps\ to\ run\ the\ simulation.\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ Main\ method\ to\ run\ the\ program\ standalone.\r\n\r\n\ @param\ args\ command\ line\ arguments\ for\ specifying\ the\ number\ of\ students,textbooks,and\ steps.\r\n
+numComments=6
